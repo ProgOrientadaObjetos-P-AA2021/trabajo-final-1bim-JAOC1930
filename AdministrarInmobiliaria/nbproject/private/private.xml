@@ -3,13 +3,25 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/reroes/Documentos/clasesUTPLabril-agosto2020/POO-presencial/primer-bimestre/trabajo-final-primer-bimestre/trabajo-final-1bim/AdministrarInmobiliaria/src/paqueteuno/Ejecutor.java</file>
-            <file>file:/home/reroes/Documentos/clasesUTPLabril-agosto2020/POO-presencial/primer-bimestre/trabajo-final-primer-bimestre/trabajo-final-1bim/AdministrarInmobiliaria/src/paquetetres/Ubicacion.java</file>
-            <file>file:/home/reroes/Documentos/clasesUTPLabril-agosto2020/POO-presencial/primer-bimestre/trabajo-final-primer-bimestre/trabajo-final-1bim/AdministrarInmobiliaria/src/paquetedos/Propietario.java</file>
-            <file>file:/home/reroes/Documentos/clasesUTPLabril-agosto2020/POO-presencial/primer-bimestre/trabajo-final-primer-bimestre/trabajo-final-1bim/AdministrarInmobiliaria/src/paquetecuatro/Ciudad.java</file>
-            <file>file:/home/reroes/Documentos/clasesUTPLabril-agosto2020/POO-presencial/primer-bimestre/trabajo-final-primer-bimestre/trabajo-final-1bim/AdministrarInmobiliaria/src/paquetecinco/Constructora.java</file>
-            <file>file:/home/reroes/Documentos/clasesUTPLabril-agosto2020/POO-presencial/primer-bimestre/trabajo-final-primer-bimestre/trabajo-final-1bim/AdministrarInmobiliaria/src/paqueteseis/Departamento.java</file>
-            <file>file:/home/reroes/Documentos/clasesUTPLabril-agosto2020/POO-presencial/primer-bimestre/trabajo-final-primer-bimestre/trabajo-final-1bim/AdministrarInmobiliaria/src/paqueteseis/Casa.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/Deberes%202C/Programacion/Semanas/trabajo-final-1bim-JAOC1930/AdministrarInmobiliaria/src/paquetedos/ArchivoEscrituraPro.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/Deberes%202C/Programacion/Semanas/trabajo-final-1bim-JAOC1930/AdministrarInmobiliaria/src/paquetecinco/ArchivoLecturaCons.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/Deberes%202C/Programacion/Semanas/trabajo-final-1bim-JAOC1930/AdministrarInmobiliaria/src/paquetecinco/Constructora.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/Deberes%202C/Programacion/Semanas/trabajo-final-1bim-JAOC1930/AdministrarInmobiliaria/src/paqueteseis/Departamento.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/Deberes%202C/Programacion/Semanas/trabajo-final-1bim-JAOC1930/AdministrarInmobiliaria/src/paqueteseis/Casa.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/Deberes%202C/Programacion/Semanas/trabajo-final-1bim-JAOC1930/AdministrarInmobiliaria/src/paqueteseis/ArchivoEscribirCasa.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/Deberes%202C/Programacion/Semanas/trabajo-final-1bim-JAOC1930/AdministrarInmobiliaria/src/paquetecuatro/Ciudad.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/Deberes%202C/Programacion/Semanas/trabajo-final-1bim-JAOC1930/AdministrarInmobiliaria/src/paqueteseis/ArchivoLecturaCasa.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/Deberes%202C/Programacion/Semanas/trabajo-final-1bim-JAOC1930/AdministrarInmobiliaria/src/paquetecuatro/ArchivoLecturaCiu.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/Deberes%202C/Programacion/Semanas/trabajo-final-1bim-JAOC1930/AdministrarInmobiliaria/src/paquetetres/ArchivoLecturaUbi.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/Deberes%202C/Programacion/Semanas/trabajo-final-1bim-JAOC1930/AdministrarInmobiliaria/src/paquetecinco/ArchivoEscrituraCons.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/Deberes%202C/Programacion/Semanas/trabajo-final-1bim-JAOC1930/AdministrarInmobiliaria/src/paquetecuatro/ArchivoEscrituraCiu.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/Deberes%202C/Programacion/Semanas/trabajo-final-1bim-JAOC1930/AdministrarInmobiliaria/src/paquetetres/ArchivoEscrituraUbi.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/Deberes%202C/Programacion/Semanas/trabajo-final-1bim-JAOC1930/AdministrarInmobiliaria/src/paquetedos/Propietario.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/Deberes%202C/Programacion/Semanas/trabajo-final-1bim-JAOC1930/AdministrarInmobiliaria/src/paqueteuno/Ejecutor.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/Deberes%202C/Programacion/Semanas/trabajo-final-1bim-JAOC1930/AdministrarInmobiliaria/src/paqueteseis/ArchivoLecturaDepa.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/Deberes%202C/Programacion/Semanas/trabajo-final-1bim-JAOC1930/AdministrarInmobiliaria/src/paquetedos/ArchivoLecturaPro.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/Deberes%202C/Programacion/Semanas/trabajo-final-1bim-JAOC1930/AdministrarInmobiliaria/src/paquetetres/Ubicacion.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/Deberes%202C/Programacion/Semanas/trabajo-final-1bim-JAOC1930/AdministrarInmobiliaria/src/paqueteseis/ArchivoEscrituraDepa.java</file>
         </group>
     </open-files>
 </project-private>
