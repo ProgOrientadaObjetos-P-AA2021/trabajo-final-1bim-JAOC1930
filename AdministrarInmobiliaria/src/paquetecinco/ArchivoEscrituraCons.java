@@ -23,23 +23,19 @@ public class ArchivoEscrituraCons {
 
     public ArchivoEscrituraCons(String nombreArc) {
         nombreArchivo = nombreArc;
-        establecerListaConstructora(); // obtener los valores (objetos)
-        // que tiene el archivo.
-        try // abre el archivo
-        {
+        establecerListaConstructora();
+        try {
             salida = new ObjectOutputStream(
                     new FileOutputStream(nombreArchivo));
-            // proceso para ingresar nuevamente los valores del archivo
             if (obtenerListaConstructora().size() > 0) {
                 for (int i = 0; i < obtenerListaConstructora().size(); i++) {
                     establecerRegistroConstructora(obtenerListaConstructora().get(i));
                     establecerSalida();
                 }
             }
-        } // fin de try
-        catch (IOException ioException) {
+        } catch (IOException ioException) {
             System.err.println("Error al abrir el archivo.");
-        } // fin de catch
+        }
     }
 
     public void establecerNombreArchivo(String n) {
@@ -52,15 +48,12 @@ public class ArchivoEscrituraCons {
 
     public void establecerSalida() {
         try {
-            salida.writeObject(registroConstuctora); // envía el registro como 
-            // objeto al archivo
+            salida.writeObject(registroConstuctora);
         } catch (IOException ex) {
             System.err.println("Error al escribir en el archivo.");
         }
     }
 
-    // en el atributo listaProfesores obtenemos los registros 
-    // del archivo
     public void establecerListaConstructora() {
         ArchivoLecturaCons l = new ArchivoLecturaCons(obtenerNombreArchivo());
         l.establecerConstrutora();
@@ -80,16 +73,14 @@ public class ArchivoEscrituraCons {
     }
 
     public void cerrarArchivo() {
-        try // cierra el archivo
-        {
+        try {
             if (salida != null) {
                 salida.close();
             }
-        } // fin de try
-        catch (IOException ioException) {
+        } catch (IOException ioException) {
             System.err.println("Error al cerrar el archivo.");
 
-        } // fin de catch
+        }
     }
 
 }

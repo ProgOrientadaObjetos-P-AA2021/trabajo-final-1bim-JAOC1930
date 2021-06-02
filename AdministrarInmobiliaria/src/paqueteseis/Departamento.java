@@ -133,17 +133,21 @@ public class Departamento implements Serializable{
     
     @Override
     public String toString(){
-        String cadena = String.format("Propierario\n\tNombre %s\nApellido: %s\n"
+        String cadena = String.format("Propierario\n\tNombre %s\n\tApellido: %s\n\t"
                 + "Identificacion: %s\nPrecio de metro cuadrado: %.2f\nnumero de "
-                + "metros cuadrados: %.2f\nValro de alicuota mensual: %.2f\n"
-                + "Costo final: %.2f\nPrecio: %.2f\nUbicacions\n\tNumero de "
+                + "metros cuadrados: %.2f\nValor de alicuota mensual: %.2f\n"
+                + "Costo final: %.2f\nPrecio: %.2f\nUbicacion\n\tNumero de "
                 + "casa: %d\n\tNombre de barrio: %s\n\tReferencia: %s\n"
                 + "Ciudad\n\tCiudad: %s\n\tProvincia: %s\nNombre edificio: %s\n"
                 + "Ubicacion de departamento: %s\nConstrucotra\n\tNombre "
                 + "constructora: %s\n\tid de la empresa: %s\n", 
                 propietario.obtenerNombre(), propietario.obtenerApellido(),
                 propietario.obtenerIdentifiacion(), pMetroCuadrado, nMetroCuadrado,
-                );
+                vAliCuotaMensual, costoFinal, precio, ubicacion.obtenerNumeroCasa(),
+                ubicacion.obtenerNombreBarrio(), ubicacion.obtenerReferencia(),
+                ciudad.obtenerCiudad(), ciudad.obtenerProvincia(), nombreEdificio,
+                ubicacionDE, constructora.obtenerNombreC(), 
+                constructora.obtenerIdE());
         return cadena;
     }
 }

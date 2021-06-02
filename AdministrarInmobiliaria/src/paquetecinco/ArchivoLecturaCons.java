@@ -27,14 +27,12 @@ public class ArchivoLecturaCons {
         nombreArchivo = n;
         File f = new File(obtenerNombreArchivo());
         if (f.exists()) {
-            try // abre el archivo
-            {
+            try {
                 entrada = new ObjectInputStream(
                         new FileInputStream(n));
-            } // fin de try
-            catch (IOException ioException) {
+            } catch (IOException ioException) {
                 System.err.println("Error al abrir el archivo." + ioException);
-            } // fin de catch
+            }
         }
     }
 
@@ -51,7 +49,6 @@ public class ArchivoLecturaCons {
     }
 
     public void establecerConstrutora() {
-        // 
         constructora = new ArrayList<>();
         File f = new File(obtenerNombreArchivo());
         if (f.exists()) {
@@ -100,18 +97,15 @@ public class ArchivoLecturaCons {
         return cadena;
     }
 
-    // cierra el archivo y termina la aplicación
     public void cerrarArchivo() {
-        try // cierra el archivo y sale
-        {
+        try {
             if (entrada != null) {
                 entrada.close();
             }
             System.exit(0);
-        } // fin de try
-        catch (IOException ioException) {
+        } catch (IOException ioException) {
             System.err.println("Error al cerrar el archivo.");
             System.exit(1);
-        } // fin de catch
-    } // fin del método cerrarArchivo
+        }
+    }
 }

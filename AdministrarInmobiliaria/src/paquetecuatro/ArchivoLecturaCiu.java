@@ -27,14 +27,12 @@ public class ArchivoLecturaCiu {
         nombreArchivo = n;
         File f = new File(obtenerNombreArchivo());
         if (f.exists()) {
-            try // abre el archivo
-            {
+            try {
                 entrada = new ObjectInputStream(
                         new FileInputStream(n));
-            } // fin de try
-            catch (IOException ioException) {
+            } catch (IOException ioException) {
                 System.err.println("Error al abrir el archivo." + ioException);
-            } // fin de catch
+            }
         }
     }
 
@@ -61,8 +59,7 @@ public class ArchivoLecturaCiu {
                     Ciudad registro = (Ciudad) entrada.readObject();
                     ciudad.add(registro);
                 } catch (EOFException endOfFileException) {
-                    return; // se llegó al fin del archivo
-                    // System.err.println("Fin de archivo: " + endOfFileException);
+                    return;
 
                 } catch (IOException ex) {
                     System.err.println("Error al leer el archivo: " + ex);
@@ -93,14 +90,13 @@ public class ArchivoLecturaCiu {
         String cadena = "";
         for (int i = 0; i < obtenerCiudad().size(); i++) {
             Ciudad c = obtenerCiudad().get(i);
-            cadena = String.format("%sInfomacion Ciudad %dCiudad: %s\nProvincia: "
+            cadena = String.format("%sInfomacion Ciudad %d\nCiudad: %s\nProvincia: "
                     + "%s\n", cadena, i + 1, c.obtenerCiudad(), c.obtenerProvincia());
         }
 
         return cadena;
     }
 
-    // cierra el archivo y termina la aplicación
     public void cerrarArchivo() {
         try {
             if (entrada != null) {
